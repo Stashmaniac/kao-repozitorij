@@ -15,5 +15,15 @@
     ?>
 
 </p>
+
+<p>
+    <?php
+    $asspoop = 69;
+    echo("Do praznika je ostalo " . "<b>" . $asspoop . "</b>" . " dana.");
+    ?>
+</p>
+
+
+
 </body>
 </html>
