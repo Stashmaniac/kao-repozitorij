@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Naslov</title>
+    <meta charset="UTF-8">
+    <title>Naslov Kartice</title>
+    <link rel="stylesheet" type="text/css" href="kao-repozitorij.css"
 </head>
 
 <body>
-<h1>Prvi</h1>
+
+<h1>Naslov Stranice</h1>
 
 <p>
+    Ovo je paragraf.
+
     <?php
-    echo("Hello World!");
+    echo("Ovo je php echo.");
     echo("<br>");
-    echo(date("d . m . y"));
+    echo(date("d. m. y"));
     ?>
+
+
 
 </p>
 
-<p>
-    <?php
-    $asspoop = 69;
-    echo("Do praznika je ostalo " . "<b>" . $asspoop . "</b>" . " dana.");
-    ?>
-</p>
 
 
 
 </body>
+
+
 </html>
